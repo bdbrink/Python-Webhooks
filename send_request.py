@@ -13,7 +13,7 @@ def add_response():
 
     url = "http://127.0.0.1:5000/add"
 
-    r = requests.put(url, "I'm adding this")
+    r = requests.put(url, "this is being added")
     print(r.content)
 
 if __name__ == "__main__":
